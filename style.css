@@ -1,0 +1,236 @@
+/* Background */
+* { 
+    margin: 0 auto; /*置中*/
+ }
+html{   /*網頁大小*/
+    background-color: #edf2c5;
+    width: 1260px; 
+    height: 920px; 
+}
+.container{
+    position: absolute;
+    max-width: 1260px;
+    max-height: 880px;
+    background-color: #edf2c5;
+}
+/* Header*/
+.header{
+    position: absolute;
+    font-family: Arial Black;
+    width: 271px;
+    height: 62px;
+    font-size: 44px;
+    color: #778a50;
+    margin: 36px 829px 782px 160px;
+}
+/* Button */
+.btn_fb {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin: 60px 175px 795px 900px;
+}
+.btn_ig {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin: 60px 140px 795px 935px;
+}
+.line_login {   /*那條線*/
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+    margin: 60px 289px 795px 970px;
+}
+.Box{
+    border-radius : 3px;    /*圓角*/
+    color : #778A50;
+}
+.btn_LOGIN_box {
+    width: 60px;
+    height: 25px;
+    border: solid 1px #778a50;
+  }
+  .LOGIN {
+    width: 46px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+  }
+  .btn_JOIN_box {
+    width: 49px;
+    height: 25px;
+    border: solid 1px #778a50;
+  }
+  .JOIN {
+    width: 35px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+  }
+  /* Navigation 導覽區  */
+  .nav_box {
+    position: absolute;
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin: 103px 0 733px 160px;
+  }
+  .nav_list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav_list_items{    /*nav內容物設定*/
+    position: absolute;
+    list-style: none;    /*不設清單點點*/
+    font-family: Arial Black;
+    font-size: 16px;
+    color: #edf2c5;
+    margin: 10px 0 11px 0;  /*先設上下*/
+}
+.Home {
+margin-left: 30px;
+  }
+.About-Us {
+    margin-left: 150px;
+   }
+.Vegetables {
+    margin-left: 290px;
+}
+.Online {
+    margin-left: 448px;
+}
+.Contact {
+    margin-left: 564px;
+}
+/* Content */
+.img_main_pumpkin {
+    position: absolute;
+    width: 940px;
+    height: 448px;
+    object-fit: contain;
+    margin: 167px 0 325px 160px;
+}
+/* Aside 側邊欄 */
+.box_v {
+    position: absolute;
+    width: 444px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin: 645px 656px 190px 160px;
+  }
+  .aside_vegetable{
+    position: absolute;
+    font-family: Arial Black;
+    font-size: 16px;
+    color: #edf2c5;
+    margin: 10px 316px 12px 30px;
+}
+.box_c{
+    position: absolute;
+    width: 444px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin: 645px 160px 190px 656px;
+}
+.aside_contact{
+    position: absolute;
+    font-family: Arial Black;
+    font-size: 16px;
+    color: #edf2c5;
+    margin: 10px 345px 12px 30px;
+}
+.box_v_img{ /*vegetable的img*/
+    position: absolute;
+    display: flex;
+}
+.img_vegetables_pepper {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin: 705px 0 0 160px;
+  }
+  .img_vegetables_carrot {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin: 705px 0 0 312px;
+  }
+  .img_vegetables_corn {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin: 705px 0 0 464px;
+  }
+  .box_contact_text {
+    position: absolute;
+    width: 444px;
+    height: 140px;
+    background-color: #f7fbda;
+    margin: 705px 0 0 656px;
+  }
+  .t_1{
+    position: absolute;
+    width: 414px;
+    height: 44px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #7d7d7d;
+    margin: 15px 15px 81px 15px;
+}
+.t_line{
+    position: absolute;
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    margin: 74px 15px 65px 15px;
+}
+.t_2{
+    position: absolute;
+    width: 197px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #7d7d7d;
+    margin: 90px 232px 15px 15px;
+}
+/* Footer 註腳 */
+.footer{
+    position: absolute;
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    margin-top: 880px;
+}
+.footer_word{
+    position: absolute;
+    width: 301px;
+    height: 14px;
+    font-family: ArialMT Regular,Arial;
+    font-size: 12px;
+    color: #edf2c5;
+    margin:  23px 479px 23px 480px;;
+}
