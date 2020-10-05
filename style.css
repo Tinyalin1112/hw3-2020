@@ -45,7 +45,7 @@ html{   /*網頁大小*/
     background-color: #778a50;
     margin: 60px 289px 795px 970px;
 }
-.Box{
+.Box {
     border-radius : 3px;    /*圓角*/
     color : #778A50;
 }
@@ -54,6 +54,7 @@ html{   /*網頁大小*/
     width: 60px;
     height: 25px;
     border: solid 1px #778a50;
+    margin: 60px 59px 795px 981px;
   }
   .LOGIN {
     position: absolute;
@@ -70,6 +71,7 @@ html{   /*網頁大小*/
     width: 49px;
     height: 25px;
     border: solid 1px #778a50;
+    margin: 60px 160px 795px 1051px;
   }
   .JOIN {
     position: absolute;
@@ -162,18 +164,21 @@ margin-left: 30px;
     display: flex;
 }
 .img_vegetables_pepper {
+    position: absolute;
     width: 140px;
     height: 140px;
     object-fit: contain;
     margin: 705px 0 0 160px;
   }
   .img_vegetables_carrot {
+    position: absolute;
     width: 140px;
     height: 140px;
     object-fit: contain;
     margin: 705px 0 0 312px;
   }
   .img_vegetables_corn {
+    position: absolute;
     width: 140px;
     height: 140px;
     object-fit: contain;
