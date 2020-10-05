@@ -50,11 +50,13 @@ html{   /*網頁大小*/
     color : #778A50;
 }
 .btn_LOGIN_box {
+    position: absolute;
     width: 60px;
     height: 25px;
     border: solid 1px #778a50;
   }
   .LOGIN {
+    position: absolute;
     width: 46px;
     height: 15px;
     font-family: Arial;
@@ -68,11 +70,13 @@ html{   /*網頁大小*/
     color: #778a50;
   }
   .btn_JOIN_box {
+    position: absolute;
     width: 49px;
     height: 25px;
     border: solid 1px #778a50;
   }
   .JOIN {
+    position: absolute;
     width: 35px;
     height: 15px;
     font-family: Arial;
